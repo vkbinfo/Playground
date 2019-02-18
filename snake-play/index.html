@@ -1,0 +1,35 @@
+<!doctype html >
+  <html lang='en'>
+    <head>
+      <title>Snake</title>
+      <script src='src/index.js'></script>
+      <style media="screen">
+          #map {
+            display: block;
+            margin: 0 auto;
+            border: 1px dashed red;
+          }
+      
+          .wrapper {
+            position: relative;
+            width: 1400px;
+            height: 700px;
+            margin: 0 auto;
+          }
+      
+          #score {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 10px;
+            font: 35px Comic Sans MS;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <p id="score">length: 0</p>
+            <canvas id="map" width="1400" height="700"></canvas>
+          </div>
+    </body>
+  </html>
